@@ -2,9 +2,8 @@
   "name": "ichat",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
   "scripts": {
-    "start": "nodemon script.js"
+    "start": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -13,6 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "buffer": "^5.7.1",
     "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "parcel": "^2.8.0",
+    "socket.io-client": "^4.5.4"
   }
 }
